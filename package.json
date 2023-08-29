@@ -1,0 +1,25 @@
+{
+  "name": "Titanic",
+  "description": "tabbed interface with hyperscript",
+  "version": "5.0.2",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Fr0stYT/Titanic.git"
+  },
+  "dependencies": {
+    "hyperscript": "^1.4.7"
+  },
+  "devDependencies": {
+    "micro-css": "^1.0.0"
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done",
+    "build-template": "node lib/generate_css_template.js"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "maintainers": [
+    "mixmix"
+  ],
+  "license": "MIT"
+}
